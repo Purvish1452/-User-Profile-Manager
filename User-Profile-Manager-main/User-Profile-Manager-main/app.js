@@ -39,9 +39,9 @@ const User = mongoose.model('User', userSchema);
 const createUser = async () => {
   try {
     const user = new User({
-      name: 'Darshil Kothiya',
-      email: '23it049@charusat.edu.in',
-      age: 19,
+      name: 'purvish panchal',
+      email: '23it070@charusat.edu.in',
+      age: 20,
     });
     const savedUser = await user.save();
     console.log('User saved:', savedUser);
